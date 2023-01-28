@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>1964 Trucking LLC</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <style type="text/css">
+        body {
+            background-color: rgb(255, 255, 255);
+            position: relative;
+        }
+
+        @font-face {
+            font-family: "My Custom Font";
+            src: url('/font/LibreBaskerville-Regular.ttf') format("truetype");
+        }
+
+        .customfont {
+            font-family: "My Custom Font";
+        }
+
+        h2 {
+            text-align: center;
+            line-height: 200%;
+            letter-spacing: 3px;
+            font-weight: 300;
+            font-size: 2em;
+            margin-top: 64px;
+        }
+
+        img.logo {
+            display: block;
+            margin: auto;
+        }
+
+        .line {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 1px;
+            height: 100vh;
+            background-color: black;
+            transform: translateY(-50%);
+
+        }
+
+        @media all and (min-width:500px) and (max-width: 720px) {
+            img.logo {
+                width: 100%;
+            }
+            h2 {
+                font-size: 5vw;
+            }
+        }
+
+        @media all and (min-width:321px) and (max-width: 480px) {
+            img.logo {
+                width: 100%;
+                height: auto;
+            }
+
+            h2 {
+                font-size: 1em;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <img class="logo" src="/images/Freightliner_Coronado.png" alt="Logo">
+    <h2 class="customfont">
+        Owner operator servicing the entire East coast since 2021 <br>
+    </h2>
+    <!-- <div class="line"></div> -->
+</body>
+
+</html>
